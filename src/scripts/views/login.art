@@ -1,0 +1,13 @@
+<div class = 'reg-cont'>
+
+<div class="r-header"><span class = 'r-return'>返回</span>
+    用户登录
+</div>
+<input type="text" class="user-account" placeholder="请输入您的账号">
+<input type="password" class="password" placeholder="输入密码">
+<input type = 'submit' class="reg-btn" value = '登录'>
+</inp>
+<div class="tips">
+    如果您未拥有 Smartisan ID，则可在此 <span class = 'jump-reg'>注册</span>
+</div>
+</div>

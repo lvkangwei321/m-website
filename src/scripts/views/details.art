@@ -1,0 +1,30 @@
+<div class="d-header">
+    <span class="iconfont icon-arrow-left return"></span>
+    <span class = "title">分类</span>
+    <span class="d-search iconfont icon-41"></span>
+</div>
+<div class="d-cont">
+    <div class="d-cont-left">
+        <ul>
+            <li class = "active">新品</li>
+            <li page = "4">众筹</li>
+            <li page = "2">手机</li>
+            <li page = "3">电视</li>
+            <li page = "4">大家电</li>
+            <li page = "5">电脑</li>
+            <li page = "6">大家电</li>
+            <li page = "7">电脑</li>
+            <li page = "1">小爱智能</li>
+            <li page = "2">路由器</li>
+            <li page = "3">生活电器</li>
+            <li page = "4">厨房电器</li>
+            <li page = "5">智能穿戴</li>
+            <li page = "6">智能家居</li>
+        </ul>
+    </div>
+    <div class="d-cont-right">
+        <div class="category-cont">
+    
+        </div>
+    </div>
+</div>

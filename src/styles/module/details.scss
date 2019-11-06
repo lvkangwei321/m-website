@@ -1,0 +1,103 @@
+.d-header {
+    height: .5rem;
+    background: #f2f2f2;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .return {
+        font-size: .28rem;
+        position: relative;
+        left: .1rem;
+    }
+
+    .title {
+        font-size: .18rem;
+    }
+
+    .d-search {
+        font-size: .26rem;
+        position: relative;
+        right: .1rem;
+    }
+}
+.d-cont{
+    flex:1;
+    display: flex;
+    overflow: hidden;
+}
+.d-cont-left {
+    display: flex;
+    flex-direction: column;
+
+    border-right: 1px #f2f2f2 solid;
+    overflow-x: hidden;
+    font-size: .14rem;
+    width: 20%;
+ 
+    li {
+        flex: 1;
+        text-align: center;
+        height: .51rem;
+        line-height: .51rem;
+    }
+
+    .active {
+        color: #FB7D34;
+        font-size: .16rem;
+    }
+}
+
+.d-cont-right {
+    overflow-x: hidden;
+    width: 80%;
+    .category-cont{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        div{
+            padding: 5px;
+            line-height: .20rem;
+            text-align: center;
+            width: 50%;
+            background-color: #fff;
+            img{
+              width: 100%;
+            }
+            h2{
+              @include ellipsis(null,1);
+              line-height: .30rem;
+              font-weight: normal;
+              height: .30rem;
+              overflow: hidden;
+             color: rgba(0,0,0,.87);
+             font-size: .15rem;
+            }
+            h3{
+              @include ellipsis(null,1);
+              color: rgba(0,0,0,.54);
+              font-weight: normal;
+              font-size: .13rem;
+              height: .20rem;
+              overflow: hidden;
+            }
+            h4{
+              color: #ea625b;
+              font-weight: normal;
+              font-size: .17rem;
+              line-height: .30rem;
+            }
+            h5{
+              margin-left: 30%;
+              width: 45%;
+              height: 10%;
+              font-weight: normal;
+              line-height: .28rem;
+              border-radius: 5px;
+              background-color: #ea625b;
+              color: #fff;
+            }
+          }
+    }
+}

@@ -1,0 +1,117 @@
+.m-header{
+    display: flex;
+    background: url(https://m.mi.com/static/img/bg.63c8e19851.png) center 0 #f37d0f;
+    height: .91rem;
+    align-items: center;
+    .m-img{
+        position: relative;
+        left: .2rem;
+        img{
+            width: .49rem;
+            height: .49rem;
+        }
+    }
+    span{
+        position: relative;
+        left: .2rem;
+        color: aliceblue;
+    }
+}
+.user-mes{
+    font-size: .24rem;
+    color: dodgerblue;
+    position: relative;
+    left: .4rem;
+}
+.quit{
+    font-size: .2rem;
+    color: firebrick;
+    position: relative;
+    left: .2rem;
+}
+.m-cont{
+    background-color: #f5f5f5;;
+}
+.mycite{
+    display: flex;
+    height: .46rem;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .2rem;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+.pic{
+    height: .96rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .2rem;
+    align-items: center;
+    padding: 0 .35rem;
+    li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: rgba(0,0,0,.87);
+        i{
+            font-size: .27rem;
+        }
+    }
+}
+.ul1{
+    background-color: #fff;
+    margin-bottom: .2rem;
+    li{
+        height: .59rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: .2rem;
+        img{
+            width: .3rem;
+        }
+        div{
+            margin-left: .05rem;
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 .1rem;
+            font-size: .16rem;
+            height: .5rem;
+            i{
+                font-size: .24rem;
+            }
+        }
+    }
+    .li1{
+        div{
+            border-bottom: 1px solid rgba(0,0,0,.15);
+        }
+    }
+}
+.set{
+    background-color: #fff;
+    height: .59rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: .2rem;
+    img{
+        width: .3rem;
+    }
+    div{
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 .1rem;
+        font-size: .16rem;
+        height: .5rem;
+        i{
+            font-size: .24rem;
+        }
+    }
+}

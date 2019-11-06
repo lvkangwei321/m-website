@@ -1,0 +1,3 @@
+{{each list}}
+<div class = 's-list'>{{$value.goodsName}}</div>
+{{/each}}

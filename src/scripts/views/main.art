@@ -1,0 +1,74 @@
+ <div class = "main-cont">
+ <div class="list-container">
+  <div class="head">
+    <img src="/assets/images/arrow.png"/>
+    <b>下拉刷新...</b>
+  </div>
+    <div class="swiper-container">
+     <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/bdf947ad6a2e8c5337c8afd32259bc7c.jpg?thumb=1&w=720&h=360" alt=""></div>
+      <div class="swiper-slide"><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d1f3564d888bc6b238ec81e21084482a.jpg?thumb=1&w=720&h=360" alt=""></div>
+      <div class="swiper-slide"><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/809bf9fee1a4aeebecae9c27f126f6e0.jpg?thumb=1&w=720&h=360" alt=""></div>
+    </div>
+  </div>
+    <!-- cells -->
+    <div class = "cells">
+    <div class = "cells-top">
+    <a href="" class="cells-items"><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/cb65daec7ef7b52cc785f88f78efba37.png?thumb=1&w=144&h=152" alt=""></a>
+    <a href="" class="cells-items"><img src="//i8.mifile.cn/v1/a1/eb5024fe-dfe3-6e53-3e18-675bef5fa06e.webp" alt=""></a>
+    <a href="" class="cells-items"><img src="////cdn.cnbj1.fds.api.mi-img.com/mi-mall/6eb2a9a73687e007daf30fc3f85e0ad2.gif" alt=""></a>
+    <a href="" class="cells-items"><img src="//i8.mifile.cn/v1/a1/e8bc849a-0a3b-21a0-6810-7da3a3903dee.webp" alt=""></a>
+    <a href="" class="cells-items"><img src="//i8.mifile.cn/v1/a1/7dbcbf87-6a58-adb6-2f3f-bb3dae3e9c80.webp" alt=""></a>
+    </div>
+    <div class = "cells-bot">
+    <a href="" class="cells-items"><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/bc1c677a6e10e42d00fb0a063662fbf9.png?thumb=1&w=144&h=152" alt=""></a>
+    <a href="" class="cells-items"><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b14da225c4156d5ce9a78e42a3a5a8e7.jpg?thumb=1&w=144&h=152" alt=""></a>
+    <a href="" class="cells-items"><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ff6d920e80a63e80edb21febdb266448.png?thumb=1&w=144&h=152" alt=""></a>
+    <a href="" class="cells-items"><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1510a665adba1d56e1a5045be77fe546.png?thumb=1&w=144&h=152" alt=""></a>
+    <a href="" class="cells-items"><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f11f9df6b0b0b428f8c8fc3267131830.png?thumb=1&w=144&h=152" alt=""></a>
+    </div>
+    </div>
+    <!-- line -->
+    <div class="line">
+
+    </div>
+    <!-- fill -->
+    <div class="fill">
+        <div class="fill-left">
+        <a href=""><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/32b5d24417b673008f386592c4d17046.jpg?thumb=1&w=358&h=508" alt=""></a>
+    </div>
+    <div class="fill-right">
+        <a href=""><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e7931165ad2e4037bbaec32270655339.jpg?thumb=1&w=358&h=252" alt=""></a>
+        <a href=""><img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1bfd928f61d96b19d936261db750ed8c.jpg?thumb=1&w=358&h=252" alt=""></a>
+    </div>
+    </div>
+<!-- line -->
+    <div class="line">
+
+    </div>
+    <div class="items-imgs">
+    <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c6c71c1c81edf64e2c13c137c2820805.jpg?thumb=1&w=720&h=280" alt="">
+    </div>
+    <!-- line -->
+    <div class="line">
+    </div>
+    <div class="items-imgs">
+    <img src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d820c1ed281f26bba00f10ed15d01254.jpg?thumb=1&w=720&h=440" alt="">
+    </div>
+
+    <!-- list -->
+    <div class="list">
+   
+    </div>
+
+ 
+
+    <!-- foot -->
+      <div class="foot">
+    <img src="/assets/images/arrow.png"/>
+    <b>上拉加载更多...</b>
+  </div>
+   
+    </div>
+  </div>

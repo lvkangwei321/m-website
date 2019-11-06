@@ -1,0 +1,12 @@
+    {{each result}}
+    <div class = "cart-list" chose = 'true' data-price = {{$value.data.message[0].sku_info[0].price}} data-id = {{$value.data.message[0].sku_info[0].sku_id}} data-num = '1'>
+    <h1></h1>
+    <h2><img src={{$value.data.message[0].sku_info[0].ali_image}} alt=""></h2>
+    <h3>{{$value.data.message[0].sku_info[0].title}}</h3>
+    <h4><span class = "sale">售价:</span><span class="good-price">{{$value.data.message[0].sku_info[0].price}}</span>元</h4>
+    <div class="num-reduce">-</div>
+    <div class="num"></div>
+    <div class="num-add">+</div>
+    <h5 data-id = {{$value.data.message[0].sku_info[0].sku_id}}>删除</h5>
+    </div>
+    {{/each}}

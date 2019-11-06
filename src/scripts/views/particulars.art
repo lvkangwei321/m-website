@@ -1,0 +1,42 @@
+     <ul class = "p-nav">
+    <li class = "goods"> 商品介绍</li>
+    <li class = "goods-intro">商品详情</li>
+    <li class = "guess-like">猜你喜欢</li>
+</ul>
+<div class = "main">
+<ul class = "main-cont">
+
+<div class="p-header">
+    <div class="back">
+        返回
+    </div>
+    <div class="header-name">
+        {{list.sku_info[0].title}}
+    </div>
+</div>
+<div class="p-img">
+    <img src={{list.sku_info[0].ali_image}} alt="">
+</div>
+<div class="p-cont">
+    <h2> {{list.sku_info[0].title}}</h2>
+    <h3>{{list.sku_info[0].sub_title}}</h3>
+    <h4>
+        <span class="price"> <i>￥</i> {{list.sku_info[0].price}}</span>
+        <span class="free-post">满 150 元包邮</span>
+    </h4>
+    <h5>
+        加入购物车
+    </h5>
+
+</div>
+    <div class="good-intro">
+        <img src={{list.shop_info.tpl_content.base.images.ali_mobile.url[0]}} alt="">
+    </div>
+    <div class="guess">
+    <img src="//i8.mifile.cn/b2c-mimall-media/e95ade2750a7fde92369b416c7d3176d.jpg" alt="">
+</div>
+         <div class = "like-cont"></div>
+    </div>
+    </div>
+     <div class = "to-top">↑</div>
+

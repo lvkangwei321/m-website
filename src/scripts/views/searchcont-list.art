@@ -1,0 +1,11 @@
+   <div class = 'list'>
+    {{each list}}
+             <div data-id = {{$value.sku_id}}>
+                <img src="{{$value.ali_image}}"alt="">
+                <h2>{{$value.title}}</h2>
+                <h3>{{$value.sub_title}}</h3>
+                <h4>￥{{$value.price}}</h4>
+                <h5> 立即购买</h5>
+        </div>
+            {{/each}}
+            </div>
